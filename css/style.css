@@ -1,3 +1,13 @@
 header {
     background-color: #2C3E50;
 }
+
+div.box{
+    height: 200px;
+    width: 200px;
+    background-color: #2C3E50;
+    margin: 0 auto;
+}
+#jumbotron{
+    background-color: #53BD9D;
+}
