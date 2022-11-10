@@ -1,4 +1,5 @@
-header {
+header,
+section.footer-bottom {
     background-color: #2C3E50;
 }
 
@@ -6,18 +7,19 @@ div.square{
     height: 200px;
     width: 200px;
     background-color: #2C3E50;
-
-
 }
 
 div.rectangle{
     height: 200px;
-    width: 300px;
+    width: 100%;
     background-color: #BB4B63;
-
 }
 
 #jumbotron,
 #about{
     background-color: #53BD9D;
+}
+
+.footer-top{
+    background-color: #3A546D;
 }
