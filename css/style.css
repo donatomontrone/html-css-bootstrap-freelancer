@@ -7,13 +7,17 @@ div.square{
     width: 200px;
     background-color: #2C3E50;
 
+
 }
 
 div.rectangle{
     height: 200px;
     width: 300px;
     background-color: #BB4B63;
+
 }
-#jumbotron{
+
+#jumbotron,
+#about{
     background-color: #53BD9D;
 }
