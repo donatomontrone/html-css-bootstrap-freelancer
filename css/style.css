@@ -10,17 +10,17 @@ div.square{
 }
 
 div.rectangle{
-    height: 200px;
+    height: 260px;
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
     background-color: #BB4B63;
+}
+
+section.footer-top{
+    background-color: #3A546D;
 }
 
 #jumbotron,
 #about{
     background-color: #53BD9D;
-}
-
-.footer-top{
-    background-color: #3A546D;
 }
