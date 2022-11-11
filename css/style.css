@@ -1,10 +1,11 @@
 header,
-section.footer-bottom {
+section.footer-bottom,
+section div.dash {
     background-color: #2C3E50;
 }
 
-p.blue-color,
-label.blue-color {
+
+p.blue-color {
     color: #2C3E50;
 }
 
@@ -15,6 +16,10 @@ section.footer-top{
 #jumbotron,
 #about{
     background-color: #53BD9D;
+}
+
+#jumbotron img {
+    max-width: 200px;
 }
 
 button[type="submit"]{
@@ -28,3 +33,20 @@ p.little-font{
 a.green-text {
     color: #53BD9D;
 }
+
+div.dash {
+    height: 4px;
+    width: 4rem;
+}
+
+div.star::after {
+    content: "\2605";
+}
+
+section#portfolio div.star,
+section#contact div.star{
+    color: #2C3E50;
+}
+
+
+

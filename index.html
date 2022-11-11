@@ -17,7 +17,7 @@
             <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="container">
                     <a class="navbar-brand text-uppercase  fw-bold text-white" href="#">start bootstrap</a>
-                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon text-white"></span>
                     </button>
                     <div class="collapse navbar-collapse text-end justify-content-end" id="navbarSupportedContent">
@@ -39,25 +39,27 @@
         <main>
             <section id="jumbotron" class="py-3 py-md-5">
                 <div class="container">
-                    <div class="row text-center text-white text-uppercase">
-                        <div class="col-12">
-                            <figure class="figure">
-                                <img src="./css/img/avatar.svg" class="figure-img w-75 rounded-circle" alt="Avatar Icon">
-                            </figure>
-                        </div>
-                        <div class="col-12"><h1 class="fs-1">start bootstrap</h1></div>
-                        <div class="col-12">
-                            <p class="fw-bold fs-1">&#8212; &#9733; &#8212;</p>
-                        </div>
-                        <div class="col-12"><p class="fs-5">graphic artist &#8211; web designer &#8211; illustrator </p></div>
+                        <img src="./css/img/avatar.svg" class="mx-auto d-block pb-3" alt="Avatar Icon">
+                    <h1 class="text-uppercase text-center text-white fs-1">Start Bootstrap</h1>
+                    <div class="d-flex justify-content-center align-items-center text-white">
+                        <div class="dash bg-white"></div>
+                        <div class="star px-3 fs-1"></div>
+                        <div class="dash bg-white"></div>
                     </div>
+                    <p class="text-uppercase text-center text-white fs-5">graphic artist &#8211; web designer &#8211; illustrator</p>
                 </div>
             </section>
             <section id="portfolio" class="py-5">
                 <div class="container">
                     <div class="row text-center text-uppercase">
                         <div class="col-12"><h3 class="fw-bold fs-3">portfolio</h3></div>
-                        <div class="col-12"><p class="fw-bold fs-1 blue-color">&#8212; &#9733; &#8212;</p></div>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="dash"></div>
+                                <div class="star px-3 my-3 fs-1"></div>
+                                <div class="dash"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="row g-3">
                         <div class="col-12 col-md-6 col-lg-4">
@@ -97,11 +99,17 @@
                 <div class="container">
                     <div class="row text-white justify-content-center">
                         <div class="col-12"><h3 class="text-center fw-bold fs-3 text-uppercase">about</h3></div>
-                        <div class="col-12"><p class="text-center fw-bold fs-1">&#8212; &#9733; &#8212;</p></div>
-                        <div class="col-12 col-md-5"><p class="ps-3">Freelancer is a free bootstrap theme created by Start Bootstrap.
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="dash bg-white"></div>
+                                <div class="star px-3 my-3 fs-1"></div>
+                                <div class="dash bg-white"></div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-md-5"><p class="ps-lg-3">Freelancer is a free bootstrap theme created by Start Bootstrap.
                             The download includes the complete source files including
                             HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p></div>
-                        <div class="col-12 col-md-5"><p class="pe-3">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting
+                        <div class="col-8 col-md-5"><p class="pe-3">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting
                             point</p></div>
                     </div>
                     <div class="row text-center">
@@ -113,28 +121,30 @@
                 <div class="container">
                     <div class="row text-center">
                         <div class="col-12"><h3 class="fw-bold fs-3 text-uppercase">Contact me</h3></div>
-                        <div class="col-12"><p class="fw-bold fs-1 blue-color">&#8212; &#9733; &#8212;</p></div>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="dash"></div>
+                                <div class="star px-3 my-3 fs-1"></div>
+                                <div class="dash"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="offset-2 col-8">
                         <form>
                             <div class="mb-3">
-                                <label class="blue-color" for="name">Name</label>
-                                <input type="text" class="border-0" id="name">
+                                <input type="text" class="border-0 form-control p-0" placeholder="Name" id="name">
                                 <hr class="p-0 my-2">
                             </div>
                             <div class="mb-3">
-                                <label class="blue-color" for="name">Email address</label>
-                                <input type="email" class="border-0" id="email">
+                                <input type="email" class="border-0 form-control p-0" placeholder="Email Address" id="email">
                                 <hr class="p-0 my-2">
                             </div>
                             <div class="mb-3">
-                                <label class="blue-color" for="phone-number">Phone Number</label>
-                                <input type="tel" class="border-0" id="phone-number">
+                                <input type="tel" class="border-0 form-control p-0" placeholder="Phone Number" id="phone-number">
                                 <hr class="p-0 my-2">
                             </div>
                             <div class="mb-3">
-                                <label class="blue-color" for="textarea">Message</label>
-                                <textarea class="form-control border-0" id="textarea" style="height: 100px"></textarea>
+                                <textarea class="border-0 form-control p-0" placeholder="Message" id="textarea" style="height: 100px"></textarea>
                                 <hr class="p-0 my-2">
                             </div>
                             <button type="submit" class="btn btn-info border-0 text-white">Send</button>
