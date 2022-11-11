@@ -3,17 +3,9 @@ section.footer-bottom {
     background-color: #2C3E50;
 }
 
-div.square{
-    height: 200px;
-    width: 200px;
-    background-color: #2C3E50;
-}
-
-div.rectangle{
-    height: 260px;
-    width: 100%;
-    max-width: 500px;
-    background-color: #BB4B63;
+p.blue-color,
+label.blue-color {
+    color: #2C3E50;
 }
 
 section.footer-top{
@@ -22,5 +14,9 @@ section.footer-top{
 
 #jumbotron,
 #about{
+    background-color: #53BD9D;
+}
+
+button[type="submit"]{
     background-color: #53BD9D;
 }

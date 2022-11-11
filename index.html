@@ -12,30 +12,41 @@
     </head>
     <body>
         <header>
-            <div class="container-md">
-                <div class="row align-items-center fw-bold text-uppercase">
-                    <div class="col-6">
-                        <h2 class="text-white my-4 fs-4 m-0">start bootstrap</h2>
-                    </div>
-                    <div class="col-6">
-                        <ul class="text-white text-end m-0 p-0 d-none d-sm-block">
-                            <li class="list-unstyled d-inline-block">portfolio</li>
-                            <li class="list-unstyled px-3 d-inline-block">about</li>
-                            <li class="list-unstyled d-inline-block">contact</li>
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand text-uppercase  fw-bold text-white" href="#">start bootstrap</a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-end justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav text-uppercase  align-items-center mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link pe-2 fw-bold text-white" aria-current="page" href="#">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 fw-bold text-white" aria-current="page" href="#">about</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link ps-2 fw-bold text-white" aria-current="page" href="#">contact</a>
+                            </li>  
                         </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
         </header>
         <main>
-            <section id="jumbotron" class="py-5">
+            <section id="jumbotron" class="py-3 py-md-5">
                 <div class="container">
                     <div class="row text-center text-white text-uppercase">
                         <div class="col-12">
-                            <div class="square mx-auto mb-3 rounded-circle"></div>
+                            <figure class="figure">
+                                <img src="./css/img/avatar.svg" class="figure-img w-75 rounded-circle" alt="Avatar Icon">
+                            </figure>
                         </div>
                         <div class="col-12"><h1 class="fs-1">start bootstrap</h1></div>
-                        <div class="col-12"><p class="fw-bold fs-1">&#8212; &#9733; &#8212;</p></div>
+                        <div class="col-12">
+                            <p class="fw-bold fs-1">&#8212; &#9733; &#8212;</p>
+                        </div>
                         <div class="col-12"><p class="fs-5">graphic artist &#8211; web designer &#8211; illustrator </p></div>
                     </div>
                 </div>
@@ -44,39 +55,51 @@
                 <div class="container">
                     <div class="row text-center text-uppercase">
                         <div class="col-12"><h3 class="fw-bold fs-3">portfolio</h3></div>
-                        <div class="col-12"><p class="fw-bold fs-1">&#8212; &#9733; &#8212;</p></div>
+                        <div class="col-12"><p class="fw-bold fs-1 blue-color">&#8212; &#9733; &#8212;</p></div>
                     </div>
                     <div class="row g-3">
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="rectangle mx-auto rounded-3"></div>
+                            <div class="text-center">
+                                <img src="css/img/cabin.png" class="rounded w-100" alt="House img">
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="rectangle mx-auto rounded-3"></div>
+                            <div class="text-center">
+                                <img src="css/img/cake.png" class="rounded w-100" alt="Cake img">
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="rectangle mx-auto rounded-3"></div>
+                            <div class="text-center">
+                                <img src="css/img/circus.png" class="rounded w-100" alt="Circus img">
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="rectangle mx-auto rounded-3"></div>
+                            <div class="text-center">
+                                <img src="css/img/game.png" class="rounded w-100" alt="GamePad img">
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="rectangle mx-auto rounded-3"></div>
+                            <div class="text-center">
+                                <img src="css/img/safe.png" class="rounded w-100" alt="Safe img">
+                            </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="rectangle mx-auto rounded-3"></div>
+                            <div class="text-center">
+                                <img src="css/img/submarine.png" class="rounded w-100" alt="Submarine img">
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="about" class="py-5">
                 <div class="container">
-                    <div class="row text-white">
+                    <div class="row text-white justify-content-center">
                         <div class="col-12"><h3 class="text-center fw-bold fs-3 text-uppercase">about</h3></div>
                         <div class="col-12"><p class="text-center fw-bold fs-1">&#8212; &#9733; &#8212;</p></div>
-                        <div class="col-12 col-md-6"><p class="px-5">Freelancer is a free bootstrap theme created by Start Bootstrap.
+                        <div class="col-12 col-md-5"><p class="ps-3">Freelancer is a free bootstrap theme created by Start Bootstrap.
                             The download includes the complete source files including
                             HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p></div>
-                        <div class="col-12 col-md-6"><p class="px-5">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting
+                        <div class="col-12 col-md-5"><p class="pe-3">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting
                             point</p></div>
                     </div>
                     <div class="row text-center">
@@ -84,14 +107,36 @@
                     </div>
                 </div>
             </section>
-            <section id="contact mb-4">
+            <section id="contact" class="py-5">
                 <div class="container">
                     <div class="row text-center">
-                        <div class="col-12"><h3 class="fw-bold fs-3">Title</h3></div>
-                        <div class="col-12"><p class="fw-bold fs-1">&#8212; &#9733; &#8212;</p></div>
+                        <div class="col-12"><h3 class="fw-bold fs-3 text-uppercase">Contact me</h3></div>
+                        <div class="col-12"><p class="fw-bold fs-1 blue-color">&#8212; &#9733; &#8212;</p></div>
                     </div>
-                    <div class="row">       
-                        <div class="col-12"><button class="btn btn-primary">button</button></div>
+                    <div class="offset-2 col-8">
+                        <form>
+                            <div class="mb-3">
+                                <label class="blue-color" for="name">Name</label>
+                                <input type="text" class="border-0" id="name">
+                                <hr class="p-0 my-2">
+                            </div>
+                            <div class="mb-3">
+                                <label class="blue-color" for="name">Email address</label>
+                                <input type="email" class="border-0" id="email">
+                                <hr class="p-0 my-2">
+                            </div>
+                            <div class="mb-3">
+                                <label class="blue-color" for="phone-number">Phone Number</label>
+                                <input type="tel" class="border-0" id="phone-number">
+                                <hr class="p-0 my-2">
+                            </div>
+                            <div class="mb-3">
+                                <label class="blue-color" for="textarea">Message</label>
+                                <textarea class="form-control border-0" id="textarea" style="height: 100px"></textarea>
+                                <hr class="p-0 my-2">
+                            </div>
+                            <button type="submit" class="btn btn-info border-0 text-white">Send</button>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -101,7 +146,7 @@
                 <div class="container">
                     <div class="row text-center text-white align-items-start">
                         <div class="col-12 col-md-4">
-                            <h4>title</h4>
+                            <h4 class="">title</h4>
                             <address class="m-0">street street street street street street</address>
                         </div>
                         <div class="col-12 col-md-4">
