@@ -20,3 +20,11 @@ section.footer-top{
 button[type="submit"]{
     background-color: #53BD9D;
 }
+
+p.little-font{
+    font-size: .7rem;
+}
+
+a.green-text {
+    color: #53BD9D;
+}
