@@ -4,7 +4,6 @@ section div.dash {
     background-color: #2C3E50;
 }
 
-
 p.blue-color {
     color: #2C3E50;
 }
@@ -13,14 +12,6 @@ section.footer-top{
     background-color: #3A546D;
 }
 
-#jumbotron,
-#about{
-    background-color: #53BD9D;
-}
-
-#jumbotron img {
-    max-width: 200px;
-}
 
 button[type="submit"]{
     background-color: #53BD9D;
@@ -48,5 +39,30 @@ section#contact div.star{
     color: #2C3E50;
 }
 
+#jumbotron,
+#about{
+    background-color: #53BD9D;
+}
+
+#jumbotron img {
+    max-width: 200px;
+}
 
 
+div.hover-green{
+    background-color: #53BD9D;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+i.hover-text {
+    font-size: 6rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.hover-container:hover div.hover-green{
+    opacity: .7;
+    transition: .5s ease;
+}
